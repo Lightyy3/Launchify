@@ -1,0 +1,26 @@
+<svg
+            width="250"
+            height="50"
+            viewBox="0 0 250 50"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <text
+              x="0"
+              y="35"
+              fontFamily="Poppins, sans-serif"
+              fontSize="32"
+              fontWeight="bold"
+            >
+              <tspan fill="#F97316">Launch</tspan>
+              <tspan fill="#FFFFFF">ify</tspan>
+            </text>
+            <g transform="translate(150,10) scale(0.8) rotate(45, 20, 20)">
+              <path
+                d="M10 20 L20 10 L30 20"
+                stroke="#F97316"
+                strokeWidth="4"
+                fill="none"
+              />
+              <path d="M20 10 L20 30" stroke="#F97316" strokeWidth="4" />
+            </g>
+          </svg>
