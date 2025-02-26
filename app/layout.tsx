@@ -58,6 +58,9 @@ const workSans = localFont({
 export const metadata: Metadata = {
   title: "Launchify",
   description: "Innovate, Connect, Elevate",
+  icons: {
+    icon: "/arrow.svg", // Path to your favicon in the public folder
+  },
 };
 
 export default function RootLayout({
@@ -67,6 +70,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        {/* Adding the favicon link manually here for better control */}
+        <link rel="icon" href="/arrow.svg" />
+      </head>
       <body className={workSans.variable}>
         {children}
         <Toaster />
