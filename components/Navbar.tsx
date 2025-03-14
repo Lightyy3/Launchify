@@ -82,7 +82,7 @@ const Navbar = async () => {
             >
               <button
                 type="submit"
-                className="px-4 py-2 bg-red-600 text-white text-lg rounded-lg shadow hover:bg-red-500 transition-all"
+                className="px-4 py-2 bg-orange-500 text-white text-lg rounded-full shadow hover:bg-orange-700 transition-all"
               >
                 Login
               </button>
