@@ -1,8 +1,8 @@
 
-"# Launchify" 
-<div>
+
+
   Deployment link: https://launchify-six.vercel.app/
-</div>
+
 
 
 ![Tech Stack](https://img.shields.io/badge/-Typescript-black?style=for-the-badge&logoColor=white&logo=react&color=3178C6)
